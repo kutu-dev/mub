@@ -9,7 +9,7 @@ from .__init__ import __version__
 
 def init():
     """Initialize musicbrainz."""
-    mus.set_useragent("python-bum: A cover art daemon.",
+    mus.set_useragent("python-mub: A cover art daemon.",
                       __version__,
                       "https://github.com/dylanaraps/bum")
 

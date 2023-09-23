@@ -40,10 +40,8 @@ def get_art(cache_dir, size, default_cover, client):
 
     if file_name.is_file():
         shutil.copy(file_name, cache_dir / "current.jpg")
-        print("album: Found cached art.")
 
     else:
-        print("album: Downloading album art...")
 
         brainz.init()
         album_art = brainz.get_cover(song, size)
@@ -57,4 +55,4 @@ def get_art(cache_dir, size, default_cover, client):
             util.bytes_to_file(album_art, cache_dir / "current.jpg")
             util.bytes_to_file(album_art, file_name)
 
-        print(f"album: Swapped art to {song['artist']}, {song['album']}.")
+    print(cache_dir / "current.jpg")

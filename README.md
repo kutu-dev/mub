@@ -1,7 +1,7 @@
 # 🎵 bum
 
 [![PyPI](https://img.shields.io/pypi/v/bum.svg)](https://pypi.python.org/pypi/bum/)
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.txt)
 [![Build Status](https://travis-ci.org/dylanaraps/bum.svg?branch=master)](https://travis-ci.org/dylanaraps/bum)
 [![Donate](https://img.shields.io/badge/donate-patreon-yellow.svg)](https://www.patreon.com/dyla)
 
@@ -26,16 +26,16 @@ Note: `bum` is meant to be used with files that don't have embedded album art (`
 ## Installation
 
 ```sh
-pip3 install --user bum
+pip3 install --user mub
 ```
 
 
 ## Usage
 
 ```sh
-usage: bum [-h] [--size "px"] [--cache_dir "/path/to/dir"] [--version]
+usage: mub [-h] [--size "px"] [--cache_dir "/path/to/dir"] [--version]
 
-bum - Download and display album art for mpd tracks.
+mub - Download and display album art for mpd tracks.
 
 optional arguments:
   -h, --help            show this help message and exit
