@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mub"
-version = "0.1.1"
+version = "0.1.2"
 description = "A cli app to download and cache album arts from mpd."
 authors = ["Kutu <the.kutu.dev@gmail.com>"]
 license = "MIT License"

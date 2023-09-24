@@ -2,6 +2,7 @@
 Musicbrainz related functions.
 """
 import time
+
 import musicbrainzngs as mus
 
 from .__init__ import __version__
@@ -21,7 +22,7 @@ def get_cover(song, size=250, retry_delay=5, retries=5):
                                    release=song["album"],
                                    limit=1)
         release_id = data["release-list"][0]["release-group"]["id"]
-        print(f"album: Using release-id: {data['release-list'][0]['id']}")
+        #print(f"album: Using release-id: {data['release-list'][0]['id']}")
 
         return mus.get_release_group_image_front(release_id, size=size)
 
